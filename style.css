@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    width: 100%;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0% auto;
+}
+
+
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    align-items: center;
+    
+
+    .navBtn{
+        display: flex;
+        margin-left: 80px;
+        border: 1px solid rgb(74, 73, 73);
+        padding: 8px 20px;
+        border-radius: 10px;
+        gap: 10px;        
+    }
+}
+.heroArea{
+
+    .bgImage{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70dvh;
+        z-index: -1;
+    }
+    .heroDetails{
+        margin-top: 40px;
+        margin:0 40px;
+      
+        
+        & h1{
+            font-size: 80px;
+        }
+        .tracing{
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+    
+    
+            & p{
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+    
+        }
+        .btn{
+            color: rgb(255, 255, 255);
+            background-color: rgb(22, 16, 16);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    }
+    
+}
+
+
+.targetArea{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 140px 0;
+    margin: 0 40px;
+
+    & img{
+        width: 100%;
+    }
+    .targetDetails{
+        padding-left: 30px;
+
+        & h1{
+            font-size:80px;
+            margin-bottom: 20px;
+         
+        }
+        .detail{
+            font-size: 32px;
+        }
+
+        .storeBtn{
+            display: flex;
+            margin-top: 20px;
+            background-color: rgb(108, 108, 108);
+            gap: 15px;
+            padding: 10px 20px;
+            width: fit-content;
+            border-radius: 15px;
+
+            .logoText{
+                
+                & h3{
+                    font-size: 22px;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.trackArea{
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    .bgImage{
+        position: absolute;
+        top: 100px;
+        width: 80dvh;
+        z-index: -1;
+    }
+    .leftTrackArea{
+        margin-left: 40px;
+
+        & h1{
+            font-size: 80px;
+            padding-bottom: 40px;
+        }
+
+    }
+
+    .trackImages{
+        display: flex;
+        gap: 20px;
+        margin-left: 20%;
+
+        .trackImage{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .trackImage:nth-child(2){
+        margin-top: 30px;
+    }
+
+
+    .rightTrackArea{
+        margin-right: 40px;
+        margin-left: 150px;
+        margin-top: 30px;
+
+        .barcode{
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        .trackDetails{
+            display: flex;
+            align-items: center;
+            margin: 60px 0;
+            gap: 30px;
+
+            & img{
+                width: 60px;
+            }
+
+            .trackText{
+
+                & h3{
+                    font-size: 60px;
+                }
+
+                & p{
+                    font-size: 30px;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+.coloriesArea{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 140px 0;
+    margin: 0 40px;
+
+    & img{
+        width: 100%;
+    }
+    .coloriesDetails{
+        padding-left: 30px;
+
+        & h1{
+            font-size:80px;
+            margin-bottom: 20px;
+         
+        }
+        .detail{
+            font-size: 32px;
+        }
+
+        .storeBtn{
+            display: flex;
+            margin-top: 20px;
+            background-color: rgb(108, 108, 108);
+            gap: 15px;
+            padding: 10px 20px;
+            width: fit-content;
+            border-radius: 15px;
+
+            .logoText{
+                
+                & h3{
+                    font-size: 22px;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.acompanyArea{
+    margin: 0 40px;
+
+    & img{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.footerArea{
+    margin: 0  40px;
+    background-color: aquamarine;
+    margin: 140px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 30px;
+
+    .footerDetails{
+
+
+        & h1{
+            font-size: 90px;
+            margin-left:  50px;
+        }
+
+
+        .storeBtn{
+            display: flex;
+            margin-left: 50px;
+            margin-top: 20px;
+            background-color: rgb(26, 25, 25);
+            width: fit-content;
+            padding: 15px 25px;
+            gap: 20px;
+            border-radius: 20px;
+            align-items: center;
+            .logoText{
+                
+
+                & h3{
+                    color: rgb(255, 255, 255);
+                    font-size: 26px;
+                }
+
+                & p{
+                    color: rgb(193, 193, 194);
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+@media(max-device-width:767px){
+    .container{
+        padding: 20px;
+    }
+    .heroArea{
+
+        .bgImage{
+            width: 50dvh
+        }
+        .heroDetails{
+            margin-top: 10px;
+          
+            
+            & h1{
+                font-size: 30px;
+            }
+            .tracing{
+        
+        
+                & p{
+                    font-size: 16px;
+                }
+        
+            }
+            .btn{
+                color: rgb(255, 255, 255);
+                background-color: rgb(22, 16, 16);
+                padding: 5px 10px;
+                border-radius: 10px;
+                font-size: 12px;
+                margin-top: 5px;
+            }
+        }
+        
+    }
+    
+    
+
+    .targetArea{
+        flex-direction: column;
+        & img{
+            max-width: 80%;
+            margin-left: 0;
+        }
+        .targetDetails{
+
+            & h1{
+                font-size:30px;
+             
+            }
+            .detail{
+                font-size: 16px;
+            }
+    
+            .storeBtn{
+          
+                padding: 5px 10px;
+
+    
+                .logoText{
+                    
+                    & h3{
+                        font-size: 22px;
+                    }
+    
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .trackArea{
+        flex-direction: column;
+
+    
+        .bgImage{
+            width: 60dvh;
+            top: 20px;
+        }
+        .leftTrackArea{
+    
+            & h1{
+                font-size: 40px;
+                
+ 
+            }
+    
+        }
+    
+        .trackImages{
+            margin-left: 0%;
+    
+            .trackImage{
+                gap: 20px;
+            }
+        }
+        .trackImage:nth-child(2){
+            margin-top: 30px;
+        }
+    
+    
+        .rightTrackArea{
+            margin-left: 10px;
+            margin-top: 30px;
+    
+            .barcode{
+                font-size: 18px;
+                font-weight: 500;
+            }
+    
+            .trackDetails{
+    
+                & img{
+                    width: 40px;
+                }
+    
+                .trackText{
+    
+                    & h3{
+                        font-size: 30px;
+                    }
+    
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+            }
+    
+        }
+    
+    }
+    .coloriesArea{
+        flex-direction: column;
+        & img{
+            max-width: 80%;
+        }
+        .coloriesDetails{
+            padding-left: 0px;
+    
+            & h1{
+                font-size:40px;
+                margin-bottom: 20px;
+             
+            }
+            .detail{
+                font-size: 16px;
+            }
+    
+            .storeBtn{
+      
+                gap: 10px;
+                padding: 5px 10px;
+  
+    
+                .logoText{
+                    
+                    & h3{
+                        font-size: 16px;
+                    }
+    
+                    & p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    
+  
+    .acompanyArea{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footerArea{
+    
+        margin: 140px 0;
+        flex-direction: column;
+        padding: 30px 0;
+    
+        .footerDetails{
+            & h1{
+                font-size: 45px;
+                margin-left:  10px;
+            }
+    
+    
+            .storeBtn{
+                display: flex;
+                margin-left: 10px;
+                margin-top: 20px;
+                padding: 5px 10px;
+                gap: 10px;
+                border-radius: 15px;
+                .logoText{
+                    
+    
+                    & h3{
+                        color: rgb(255, 255, 255);
+                        font-size: 16px;
+                    }
+    
+                    & p{
+                        color: rgb(193, 193, 194);
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        & img{
+            max-width: 80%;
+        }
+    
+    }
+    
+}
